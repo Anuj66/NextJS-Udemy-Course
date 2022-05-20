@@ -1,12 +1,11 @@
-import Link from "next/link";
-
 import Logo from "./logo";
+import Link from "next/link";
 import classes from "./main-navigation.module.css";
 
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <Link href="/major-app/public">
+      <Link href={"/"}>
         <a>
           <Logo />
         </a>
@@ -14,12 +13,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href="/posts">Posts</Link>
+            <Link href={"/posts"}>Posts</Link>
           </li>
           <li>
-            <Link href="/NextJs/Udemy Course/major-app/pages/contact">
-              Contact
-            </Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </nav>
