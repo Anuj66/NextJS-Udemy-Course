@@ -24,3 +24,7 @@
         padding: var(--size-8);
     }
 }
+
+.content img {
+    max-width: 200px;
+}
