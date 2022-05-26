@@ -23,9 +23,10 @@ async function handler(req, res) {
       message,
     };
 
+    const mongoUrl = `mongodb://localhost:27017/${process.env.mongodb_database}`
     let client;
     try {
-      client = await MongoClient.connect('mongodb://localhost:27017/post')
+      client = await MongoClient.connect(mongoUrl)
     } catch (error) {
       return res.status(500).json({message: error.message})
     }
