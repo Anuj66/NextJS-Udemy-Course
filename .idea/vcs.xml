@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/app-4-section-5" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/app-5-section-8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/app-6-section-9/nextjs-course-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/major-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/major-app/nextjs-course-code" vcs="Git" />
   </component>
 </project>
